@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/jquery.modal.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <title>C.V. - ALguien Mas</title>
+</head>
+<body>
+
+  <!-- Modal. Personal information -->
+  <div id="modal" style="display:none;">
+    <h2>Información personal</h2>
+    <h3>Pepito Juarez.</h3>
+    <p>Fecha de nacimiento: xx-xx-xxx (XX)</p>
+    <p>Nacionalidad: xxxxx</p>
+    <p>Estado Civil: xxxxx</p>
+    <p>Dirección:xxxxx. xxxx.x xx. xxx xxxx.</p>
+
+    <h2>Redes sociales</h2>
+    <ul>
+      <li class="hovered"><span class="fa fa-facebook-official"></span><a href="https://www.facebook.com" target="_blank" class="links"> Facebook</a></li>
+      <li class="hovered"><span class="fa fa-github-square"></span><a href="https://github.com/" target="_blank" class="links"> Github</a></li>
+      <li class="hovered"><span class="fa fa-linkedin-square"></span><a href="https://www.linkedin.com" target="_blank" class="links"> LinkedIn</a></li>
+    </ul>
+
+    <h2>Contacto</h2>
+    <p>Correo : example@example.com</p>
+    <p>Casa : xx-xx-xx-xx</p>
+    <p>Personal : 55-xx-xx-xx-xx</p>
+
+  </div>
+  <span id="btn-menu" class="fa fa-navicon fa-3x btn-menu"></span>
+  
+  <!-- Hide menu -->
+  <nav class="animated fadeInLeft">
+    <ul id="scroll">
+      <li><img src="img/photo.png" title="Información personal" class="bg-photo nav"><span class="name-small">Pepito Juarez</span></li>
+      <li class="hovered"><span class="fa fa-user-circle-o"></span><a href="#myprofile" class="links"> Perfil</a></li>
+      <li class="hovered"><span class="fa fa-code"></span><a href="#myPlang" class="links"> Lenguajes</a></li>
+      <li class="hovered"><span class="fa fa-plug"></span><a href="#myframeworks" class="links"> Frameworks</a></li>
+      <li class="hovered"><span class="fa fa-database"></span><a href="#mysgbd" class="links"> SGBD</a></li>
+      <li class="hovered"><span class="fa fa-desktop"></span><a href="#mysoftware" class="links"> Software</a></li>
+      <li class="hovered"><span class="fa fa-language"></span><a href="#mylang" class="links"> Idiomas</a></li>
+      <li class="hovered"><span class="fa fa-handshake-o"></span><a href="#myjobexp" class="links"> Experiencia</a></li>
+      <li class="hovered"><span class="fa fa-graduation-cap"></span><a href="#myschool" class="links"> Formación academica</a></li>
+      <!-- <li class="hovered"><span class="fa fa-address-book"></span><a href="#mycontact" class="links"> Contacto</a></li> -->
+    </ul>
+  </nav>
+  
+  <!-- visible menu -->
+  <aside class="animated fadeInLeft">
+    <ul class="visible-menu scroll">
+      <li title="Información personal"><img src="img/photo.png" class="bg-photo"></li>
+      <li class="hovered"><a href="#myprofile" title="Perfil"><span class="fa fa-user-circle-o"></a></span></li>
+      <li class="hovered"><a href="#myPlang" title="Lenguajes"><span class="fa fa-code"></a></span></li>
+      <li class="hovered"><a href="#myframeworks" title="Frameworks"><span class="fa fa-plug"></a></span></li>
+      <li class="hovered"><a href="#mysgbd" title="SGBD"><span class="fa fa-database"></a></span></li>
+      <li class="hovered"><a href="#mysoftware" title="Software"><span class="fa fa-desktop"></a></span></li>
+      <li class="hovered"><a href="#mylang" title="Idiomas"><span class="fa fa-language"></a></span></li>
+      <li class="hovered"><a href="#myjobexp" title="Experiencia"><span class="fa fa-handshake-o"></a></span></li>
+      <li class="hovered"><a href="#myschool" title="Formación académica"><span class="fa fa-graduation-cap"></a></span></li>
+      <!-- <li class="hovered"><a href="#mycontact" title="Contacto"><span class="fa fa-address-book"></a></span></li> -->
+    </ul>
+  </aside>
+ 
+  <!-- Main section (Gray) -->
+  <section>
+    <span class="icon fa fa-arrow-down"></span>
+    <!-- Section (photo-name) for mobile phones -->
+    <div class="main-photo animated fadeInDown" id="main-photo">
+      <img src="img/photo.png" class="bg-photo-section shadow">
+      <h1 class="name">Pepito Juarez</h1>
+    </div>
+
+    <div class="empty" id="empty"></div>
+    
+    <!-- Main section, parent of articles -->
+    <div class="main delay-1">
+
+      <article class="animated fadeIn delay-1 color-1" id="myprofile">
+        <h2>Perfil</h2>
+        <div class="content-art">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos similique, 
+              minus, eligendi iusto laudantium aliquam velit optio inventore molestiae tenetur ad eum labore i
+              d corporis doloribus ea, reprehenderit odio. Necessitatibus?Nulla ex cum non vitae rem laudantium
+               distinctio deleniti optio voluptatum harum perspiciatis maiores aspernatur, nesciunt consequatur eum dolor
+                totam ipsum eius quasi ipsa aperiam. Voluptate consectetur excepturi tempora repellat?  
+            <br><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Asperiores natus beatae cum mollitia saepe sequi maxime eaque dolorum sed harum? Excepturi l
+              abore eos dignissimos qui dolorum optio, facilis vero accusamus..</p>
+            <br>
+            <p><b>Habilidades</b></p>
+            <hr>
+            <br>
+            <p><span class=" fa fa-genderless"></span> Comprometido</p>
+            <p><span class=" fa fa-genderless"></span> Organizado</p>
+            <p><span class=" fa fa-genderless"></span> Trabajo en equipo</p>
+            <p><span class=" fa fa-genderless"></span> Facilidad de aprendizaje</p>
+            <p><span class=" fa fa-genderless"></span> Análitico</p>
+            <p><span class=" fa fa-genderless"></span> Proactivo</p>
+            
+            <br><br>
+            <a class="text-right" href="#"><span class="fa fa-file-pdf-o"></span> Descargar CV en verión PDF.</a>
+            
+            
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="myPlang">
+        <h2>Lenguajes</h2>
+        <div class="content-art">
+            <div class="shadow" id="programing-lang" ></div>
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="myframeworks">
+        <h2>Frameworks</h2>
+        <div class="content-art">
+            <div class="shadow" id="frameworks" ></div>
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="mysgbd" >
+        <h2>SGBD</h2>
+        <div class="content-art">
+            <div class="shadow" id="sgbd" ></div>
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="mysoftware" >
+        <h2>Software</h2>
+        <div class="content-art">
+          <p>Los distintos programas que he manejado en estos últimos años son : </p>
+          <br><br>
+          <img class="shadow" src="img/soft1.PNG" >
+          <img class="shadow" src="img/soft2.PNG" >
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="mylang" >
+        <h2>Idiomas</h2>
+        <div class="content-art">
+            <div class="shadow" id="languages" ></div>
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="myjobexp">
+        <h2>Experiencia laboral</h2>
+        <div class="content-art">
+          <br> <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ipsum exercitationem cum ut numquam deleniti harum est soluta, officiis aspernatur vitae necessitatibus sint quas? Quibusdam repellat consequuntur maxime inventore vero.</h3>            
+          <br><br>
+          <a class="text-right" href="#myschact"><span class="fa fa-arrow-down"></span> Ver Actividades escolares.</a>
+        </div>
+      </article>
+      
+      <article class="animated fadeIn delay-1" id="myschact">
+        <h2>Actividades Escolares.</h2>
+        <div class="content-art">
+          <p><b> Implementación de software de seguimiento y control de prestamo de equipo de cómputo en el departamento de Informática.</b></p>
+          <hr>
+          <br>
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laborum vel quasi, odio non animi nostrum dolorem accusamus voluptas voluptatibus, dolores sit, placeat facilis esse! Tempora officiis accusamus porro quasi?</p>
+
+          <br>
+          <p><b>Tiempo : </b> Agosto 2016 - Noviembre 2016</p>
+
+          <br>
+          <p><b>Actividades : </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a cumque, laborum ipsa fuga sint tempore eum voluptates? Dolores ex quis asperiores, nesciunt omnis quidem natus saepe nemo repellendus inventore?</p>
+        </div>
+      </article>
+
+      <article class="animated fadeIn delay-1" id="myschool">
+          <h2>Formación académica</h2>
+        <div class="content-art">
+          <div class="logo-unam shadow">
+              <h3>Universidad A la que asististe</h3>
+              <h3>Facultad</h3>
+              <p>xxxx-xxxx</p>
+              <p>Título que recibiste</p>
+          </div>   
+        </div>
+      </article>
+
+      
+    </div>
+    
+  </section>
+
+  <!-- Librerias -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.js"></script>
+  <script src="https://code.highcharts.com/highcharts.src.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/chart.js"></script>
+</body>
+</html>
